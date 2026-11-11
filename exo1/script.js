@@ -2,11 +2,11 @@
 "use strict";
 
 // Constants declaration, reference slide: 38 - Chapter 4 (JavaScript Part 1)
-// I declared the variables as constants because removing the "const" keyword causes an issue in the console when clicking
-const nom = "John";
-const prenom = "Doe";
-const age = 30;
-const note = 15;
+// I declared the variables as let because of "use strict"
+let nom = "John";
+let prenom = "Doe";
+let age = 30;
+let note = 15;
 const pi = 3.14;
 
 // Behavior to execute when the click event is triggered, reference slide: 15 - Chapter 4 (JavaScript Part 1)
